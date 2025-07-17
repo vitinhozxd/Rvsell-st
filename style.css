@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #0f0;
+  font-size: 28px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 26px;
+  color: #0f0;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  color: #0f0;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.preco {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #08c408;
+}
+
+section#contato {
+  margin-top: 60px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #222;
+  padding: 15px;
+  margin-top: 40px;
+}
